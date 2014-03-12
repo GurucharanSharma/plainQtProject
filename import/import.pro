@@ -14,7 +14,10 @@ HEADERS += piechart.h \
 
 SOURCES += piechart.cpp \
            pieslice.cpp \
-           chartsplugin.cpp
+           chartsplugin.cpp \
+    chartsplugin.cpp \
+    piechart.cpp \
+    pieslice.cpp
 
 DESTPATH = $$[QT_INSTALL_EXAMPLE]/qml/tutorials/extending/chapter6-plugins/Charts
 
@@ -27,3 +30,5 @@ INSTALLS += target qmldir
 OTHER_FILES += qmldir
 
 QMAKE_POST_LINK += $$QMAKE_COPY $$replace($$list($$quote($$PWD/qmldir) $$DESTDIR), /, $$QMAKE_DIR_SEP)
+
+RESOURCES +=

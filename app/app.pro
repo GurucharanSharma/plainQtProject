@@ -4,7 +4,7 @@ QT += qml quick
 win32: DESTDIR = ./
 SOURCES += main.cpp \
     main.cpp
-RESOURCES +=
+RESOURCES += \
+    app.qrc
 
-OTHER_FILES += \
-    app.qml
+OTHER_FILES +=
