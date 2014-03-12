@@ -8,7 +8,9 @@ TARGET = $$qtLibraryTarget(chartsplugin)
 HEADERS += piechart.h \
            pieslice.h \
            chartsplugin.h \
-    chartsplugin.h
+    chartsplugin.h \
+    piechart.h \
+    pieslice.h
 
 SOURCES += piechart.cpp \
            pieslice.cpp \
